@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Brennen Edwards</title>
+    <link rel="icon" href="">
+</head>
+<body>
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">W</span><span class="logo">e</span><span class="logo">l</span><span
+                class="logo">c</span><span class="logo">o</span><span class="logo">m</span><span class="logo">e</span>
+        </h1>
+    </div>
+    <div id="particles-js"></div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list" id="navlist">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <div class="toggle-container">
+                        <input type="checkbox" id="toggle" name="toggle">
+                        <label class="lab" for="toggle"><i class='bx bxs-moon'></i></label>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi, <br>
+                    I'm <span class="home_title-color">Brennen</span><br> <span id="autoWrite"></span></h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/brennen-edwards-053252131/" target="_blank" class="home_social-icon"><i
+                        class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/brenedwards" target="_blank" class="home_social-icon"><i
+                        class="bx bxl-github"></i></a>
+            </div>
+
+        
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="img/1516965777081.jpeg" alt="">
+                </div>
+                
+
+                <div>
+                    <h2 class="about_subtitle">Hello</h2>
+                    <p class="about_text">An experienced relationship builder who finds great joy in connecting organizations. Communication is the first step in aligning shared goals. I’ve spent time on the Sales 
+                        and Customer Success side of B2B and am always reflecting on what could have made the client’s life easier.
+                        I’m always looking for opportunities to improve myself, you’ll often find me sifting through LinkedIn learning or thinking of ways to invest.
+                        Located in Miami Beach, my free time goes to the good weather 
+                        and opportunities to get out and experience life.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="cv">
+            <a href="https://drive.google.com/file/d/1-P5JXTpMd4jV1wFF90RQISh8MzDw-sfl/view?usp=sharing" target="_blank"
+                class="button cv">Download CV</a>
+       </div>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact_container bd-grid">
+                <form name="contact" method="POST" class="contact_form" data-netlify="true"
+                    data-netlify-recaptcha="true">
+                    <input type="text" name="name" placeholder="Name" class="contact_input" required>
+                    <input type="email" name="email" placeholder="Email" class="contact_input" required>
+                    <textarea name="text" id="" cols="0" rows="10" class="contact_input" required></textarea>
+
+                    <input type="submit" value="Send" class="contact_button button">
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p class="footer_title">Brennen Edwards</p>
+            <div class="footer_social">
+                <a href="https://www.facebook.com/brennen.edwards.9" class="footer_icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/brennenedwards/" class="footer_icon"><i
+                        class='bx bxl-instagram'></i></a>
+            </div>
+            <p>&#169; 2024 copyright all right reserved</p>
+        </footer>
+    </main>
+
+
+
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Autowriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Particles -->
+    <script src=" js/particles-js"></script>
+
+    <!-- Javascript -->
+    <script src=" js/app.js"></script>
+</body>
+
+</html>
